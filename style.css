@@ -1,0 +1,559 @@
+.__container{
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 1700px;
+    
+}
+.headPanel{
+ display: flex;
+ width: 1700px;
+ height: 100px;
+ gap: 127.5px;
+ margin-top: 55px;
+ align-items: center;
+}
+.firstSectionSubDiv{
+    height: 510px;
+    width: 950px;
+}
+.firstSectionSubDiv2{
+    width: 720px;
+    height: 510px;
+}
+.firstSectionBigImage{
+    height: 360px;
+    width: 950px;
+}
+.confirmButton{
+    height: 50px;
+    width: 150px;
+}
+.firstSectionBigImage img{
+    border-radius: 15px 0px 0px 0px;
+}
+.radius{
+    border-radius: 15px;
+}
+.firstSectionSmallImage{
+    height: 150px;
+    width: 240px;
+    box-shadow: 0px 4px 4px rgb(0, 0, 0);
+}
+.firstSectionSubDiv2UpperInformation{
+    display: flex;
+
+}
+
+.firstSectionFourImages{
+    height: 150px;
+    width: 950px;
+    display: flex;
+    justify-content: space-between;
+}
+.stars2{
+    height: 100px;
+    width: 100px;
+    object-fit: fill;
+    padding-top: 20px;
+}
+.pictures{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+header{
+    width: 1700px;
+}
+.firstSection{
+    width: 1700px;
+    display: flex;
+    gap: 35px;
+    padding-top: 50px;
+}
+.stats{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 50px;
+}
+.stats:not(:last-child){
+    border-bottom: solid white 1px;
+}
+.tag{
+    width: 241px;
+    height: 25px;
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.tag:not(:last-child){
+    border-bottom: solid white 1px;
+}
+.blueText{
+    color: #67c1f5;
+}
+.gradient{
+    /* background: linear-gradient(180deg, #182D3D 0%, rgba(15, 117, 190, 0.516) 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+    background-blend-mode: multiply;
+    /* background: rgb(2,0,36); */
+    /* background: linear-gradient(152deg,  rgb(9, 22, 56) 10%, rgba(15, 99, 110,1) 90%);
+    box-shadow: 0px 4px 4px rgb(0, 0, 0); */
+    border: 1px solid black;
+    box-shadow: 0px 4px 4px rgb(0, 0, 0);
+}
+.firstSectionMediumImage{
+    height: 360px;
+    width: 476px;
+}
+.AuthMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.authorization{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 32px;
+    min-height: 300px;
+    width: 700px;
+}
+.AuthForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.submitStyle{
+    cursor: pointer;
+}
+.authorization > form > input.confirmButton{
+    background-color: transparent;
+    display: flex;
+    color: white;
+    border: 1px solid white;
+    margin-top: 30px;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.starsDiv{
+    width: 717px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.AuthInput{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 32px;
+}
+.tags{
+    width: 241px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 0px 15px 0px 0px;
+
+}
+.korobka{
+    min-width: 1920px;
+    min-height: 1000px;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    border:5px solid black;
+    background-color: #142149;
+    /* background-image: url('fon2.png');
+    background-position:bottom; 
+    background-size: 50%;
+    background-repeat:repeat-x; */
+    border-radius: 10px;
+}
+.MakeComment{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 32px;
+}
+.thirdSection > h2{
+    font-size: 48px;
+}
+.starsSum{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.stars{
+    width: 717px;
+    height: 150px;
+ 
+}
+.headPanel > *{
+    color: white;
+   
+    border-radius: 15px;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headPanel > *{
+    margin: 0 auto;
+    padding: 0;
+    
+}
+.statistic{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    font-size: 28px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.options{
+    width: 500px;
+    height: 330px;
+    margin-top: 20px;
+    display: flex;
+    font-size: 28px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.option{
+    height: 70px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.option:not(:last-child){
+    border-bottom: solid white 1px;
+}
+.description{
+    max-width: 950px;
+    min-height: 200px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.headPanel > div:not(:last-child){
+    height: 60px;
+    width: 150px;
+    object-fit: fill;
+    text-align: center;
+}
+a:visited{
+    color: white;
+}
+nav > div > a:hover{
+    scale: 1.5;
+}
+nav > div > a{
+    text-decoration: none;
+    transition: all 0.5s;
+    
+}
+.headPanel > img{
+    height: 125px;
+    width: 180px;
+}
+.headPanel >:first-child{
+    margin-left: 50px;
+}
+.headPanel >:last-child{
+    width: 370px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0);
+    border: solid 2px white;
+}
+.libmain > *{
+    margin-left: 200px;
+}
+body{
+    color: white;
+    background-color: #0a1125;
+    /* background-image: url('fon2.png');
+    background-position:left, right; 
+    background-size: 50%;
+    background-repeat:repeat-x; */
+    font-family: Inter, sans-serif;
+}
+#UserMark{
+    background-color: transparent;
+    color: white;
+    margin-left: 20px;
+}
+#UserMark > option{
+    background: black;
+    color: white;
+}
+.descr{
+    font-size: 24px;
+}
+.secondSection{
+    width: 1700px;
+    display: flex;
+    gap: 250px; 
+    padding-top: 50px;
+}
+.advantages{
+    font-size: 20px;
+}
+.BuyText{
+    font-size: 32px;
+}
+.BuyAndPrice{
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+}
+.Price{
+    color: #0897AB;
+}
+.Buy:hover{
+    transition: all 0.5s;
+    color: #67c1f5;
+}
+.Buy{
+    width: 160px;
+    text-align: center;
+    background-color: #0897AB;
+    color: white;
+    cursor: pointer;
+    clip-path: polygon(0 0, 0 75%, 15% 100%, 100% 100%, 100% 25%, 85% 0);
+}
+.priceDiv{
+    width: 950px;
+    height: 50px;
+    border: solid rgb(0, 0, 0) 1px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 32px;
+    padding-top: 5px;
+}
+.secondSectionSubDiv2{
+    width: 500px;
+    height: auto;
+}
+.secondSectionSubDiv{
+    height: auto;
+    width: 950px;
+}
+.Filtr{
+    background-color: transparent;
+    color: white;
+    font-size: 32px;
+}
+.Filtr option{
+    background-color: black;
+    color: white;
+}
+.AllFiltrs{
+    display: flex;
+    justify-content: left;
+    gap: 30px;
+}
+.comments{
+    max-width: 950px;
+    min-width: 300px;
+    padding-top: 50px;
+}
+.avatarka{
+    object-fit: fill;
+    width: 200px;
+    height: 200px;
+}
+.comment{
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    border: 1px solid black;
+    box-shadow: 2px 2px black;
+    font-size: 24px;
+}
+.avatarkaProfile{
+    object-fit: fill;
+    width: 300px;
+    height: 300px;
+}
+.profile{
+    display: flex;
+    justify-content: left;
+    gap: 30px;
+
+}
+.profileSubDiv{
+    width: 1370px;
+    display: flex;
+    justify-content: left;
+    gap: 700px;
+}
+.newDataProfile{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+}
+.newDataProfile > * {
+    background-color: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    font-size: 26px;
+}
+.newDataProfile >*::placeholder{
+    color: white;
+}
+.newDescriptionUser{
+    width: 500px;
+    height: 100px;
+    resize: none;
+}
+.MakeComment > *::placeholder{
+    color: white;
+}
+.newComm{
+    width: 950px;
+    color: white;
+    font-size: 32px;
+    background-color: transparent !important;
+    border: 1px solid black;
+    resize: none;
+}
+.AcceptButton{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 15px;
+    color: white;
+    font-size: 32px;
+}
+.confirmProfile{
+    height: 50px;
+    width: 250px;
+}
+.actualProfile{
+    font-size: 32px;
+}
+.asideList{
+    font-size: 32px;
+    display: flex;
+    justify-content: left;
+    gap: 50px;
+}
+.asideList:not(:last-child){
+    border-bottom: 1px solid black;
+}
+.asideList > button{
+    background-color: transparent;
+    height: 50px;
+    width: 200px;
+    color: white;
+    border:  1px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.asideList > button:hover{
+    color: #67c1f5;
+}
+.FriendsList{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Friend{
+    display: flex;
+    justify-content: left;
+    gap: 30px;
+    max-width: 400px;
+    max-height: 100px;
+    border:  1px solid black;
+    font-size: 32px;
+}
+.Friend > img{
+    cursor: pointer;
+}
+.libraryList{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid black;
+    max-width: 875px;
+}
+.libraryList > * {
+    border: 1px solid black;
+}
+.Link{
+    cursor: pointer;
+}
+.Link:hover{
+    color: #67c1f5;
+}
+.container {
+    margin-bottom: 60px;
+    width: 1700px;
+    margin-left: auto;
+    margin-right: auto;
+    border:5px solid black;
+    background-color: #142149;
+    /* background-image: url('fon2.png');
+    background-position:bottom; 
+    background-size: 50%;
+    background-repeat:repeat-x; */
+    border-radius: 10px;
+    display: flex;
+  
+  }
+  .fot {
+    margin-top: 5px;
+    padding-top: 5px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    padding: 5px 15px;
+    display: flex;
+  
+  }
+  .logo2 {
+    /* max-width: 120px; */
+    max-height: 120px;
+    /* margin-right: 65px; */
+  }
+  .srrw {
+    display: flex;
+    margin-top: 15px;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+  }
+  .srrwp {
+    margin-right: 24px;
+  }
+  .ttx {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-right: 125px;
+  }
+  footer{
+    width: 1920px;
+  }
+  .admin > *{
+    background-color: transparent;
+    color: white;
+    width: 300px;
+    border: 1px solid white;
+    margin-left: 150px;
+  }
+  .admin > *::placeholder{
+    color: white;
+  }
